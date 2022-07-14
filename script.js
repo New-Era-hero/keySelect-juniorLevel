@@ -6,7 +6,7 @@ button.value = button.value[0].toUpperCase() + button.value.slice(1);
 
 const createKey = (name, model, price) => {
     count++;
-    img = `<img src="img/key.png" class="img-key">`
+    img = `<img src="key.png" class="img-key">`
     name = `<h2>${name}</h2>`;
     model = `<h3 id="${model}">Model: ${model}</h3>`;
     price = `<p>Price: <b>$${price}</b></p>`;
